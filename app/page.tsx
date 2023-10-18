@@ -1,10 +1,17 @@
+import Camp from "@/components/Camp";
+import Features from "@/components/Features";
+import GetApp from "@/components/GetApp";
+import Guide from "@/components/Guide";
+import Hero from "@/components/Hero";
+
 export default function Home() {
   return (
-    <h1
-      className="shadow-md shadow-current p-5
-    w-2/3 mx-auto rounded-xl text-center my-5"
-    >
-      Hello in Vercel NextJS 13.5
-    </h1>
+    <>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+    </>
   );
 }
